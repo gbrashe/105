@@ -17,7 +17,7 @@ int main(void) {
     	scanf("%c", &inputOne);
     	int decValue = (char) inputOne;
     // Print dec value
-    	printf("The decimal value of %d is: %d\n", inputOne,decValue);
+    	printf("The decimal value of %c is: %d\n", inputOne,decValue);
     // Determine sqrt
     	sqrtValue = sqrt(decValue);
     // determine amount of decimal places
